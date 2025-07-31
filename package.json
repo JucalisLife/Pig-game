@@ -1,0 +1,13 @@
+{
+  "name": "pig-game",
+  "version": "1.0.0",
+  "description": "Classic pig (dice) game",
+  "default": "index.html",
+  "license": "ISC",
+  "author": "Jucal Adefokun",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  }
+}
